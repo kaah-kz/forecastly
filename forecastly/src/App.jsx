@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import axios from 'axios'
 import WeatherInfo from './components/WheatherInfo/WheatherInfo'
-// import './App.css'
+import './App.css'
 
 function App() {
   const [weather, setWheather] = useState()
@@ -21,7 +21,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='container'>
       <h1>Forecastly - Your weather, simplified.</h1>
       <input ref={inputRef} type='text' placeholder='Enter the city name'/>
       <button onClick={searchCity}>Search</button>
