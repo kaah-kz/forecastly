@@ -24,10 +24,13 @@ h2 {
     font-size: 2.5rem;
 }
 
-/* .desc {
-
+.desc {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
 }
 
 .details {
-
-} */
+    display: flex;
+    justify-content: space-around;
+}
